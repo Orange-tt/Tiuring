@@ -1,7 +1,9 @@
 import java.util.Scanner;
 // TASK 1
-class Main {
-    public static void main(String[] args) {
+class Main 
+{
+    public static void main(String[] args) 
+{
         Scanner in = new Scanner(System.in);
         
         String s = in.next()+'\n';

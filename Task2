@@ -1,0 +1,21 @@
+import java.util.Scanner;
+// TASK 2
+class Main{
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        
+        int lpd = in.nextInt() * in.nextInt();
+        int ltrs = 0;
+        
+        for(int i = 1; i<17; i++)
+        {
+            ltrs += lpd;
+            System.out.printf("К %d неделе будет выпито %d литров жидкости\n", i, ltrs);
+        }
+        
+        if(ltrs >= 120)
+            System.out.printf("Студент принят в IT-клуб");
+        else
+            System.out.printf("К сожалению студент не принят в IT-клуб");
+    }
+}
